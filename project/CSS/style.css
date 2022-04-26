@@ -1,0 +1,227 @@
+.container {
+  background-color: black;
+}
+
+nav li {
+  display: inline;
+  color: aliceblue;
+  padding: 15px;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li:hover {
+  background-color: rgb(57, 121, 121);
+  color: darkslategray;
+}
+nav ul {
+  text-align: right;
+  margin: 20px;
+}
+nav {
+  background-color: rgb(13, 27, 27);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.demo h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+.demo {
+  padding: 50px;
+}
+.demo p {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.demo p::selection,
+.demo h1::selection {
+  color: rgb(57, 121, 121);
+}
+.demo a {
+  background-color: rgb(11, 97, 97);
+  height: 150px;
+  width: 700px;
+  font-size: 20px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: aliceblue;
+}
+.demo a:hover {
+  background-color: rgb(57, 121, 121);
+}
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.demo2 {
+  padding: 30px;
+}
+.demo2 img {
+  height: 740px;
+  border-radius: 1%;
+}
+.demo2 li {
+  display: inline;
+}
+
+hr {
+  margin: 50px;
+  background-color: darkcyan;
+}
+.demo2 .grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.demo2 .grid-item {
+  padding: 20px;
+}
+.demo2 .grid-item h1 {
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.demo2 .grid-item h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.demo2 .grid-item p {
+    font-family: "Courier New", Courier, monospace;
+}
+.demo3 .grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 20px;
+  }
+  .demo3 .grid  .grid-item
+  {
+      padding: 20px;
+  }
+.demo3 img
+{
+  height: 180px;
+  width : 180px;
+  border-radius: 25%;
+  opacity: 0.7;
+  filter: blur(2px);
+}
+.demo3 h1
+{
+    font-weight: 100;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.demo3 h4
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    color:rgb(8, 145, 3);
+}
+.demo3 img:hover
+{
+    filter:blur(0px) ;
+    opacity: 1;
+  
+}
+.demo4
+{
+    margin-top: 100px;
+    background-color: rgb(5, 46, 46);
+    height: 300px;
+    padding: 50px;
+}
+
+.demo4 p {
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+  .demo4 p::selection,
+  .demo4 h1::selection {
+    color: rgb(57, 121, 121);
+  }
+  .demo4 a {
+    background-color: rgb(8, 26, 22);
+    height: 150px;
+    width: 700px;
+    font-size: 15px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .demo4 a:hover {
+    background-color: rgb(21, 83, 63);
+    text-decoration: underline;
+  }
+  .demo4 h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+  }
+  .demo5
+  {
+      background-color: darkslategrey;
+      height: 300px;
+  }
+  .demo5 .grid
+  {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding: 20px;
+
+  }
+  .demo5 .grid-item
+  {
+      padding: 40px;
+  }
+  .demo5 form {
+      padding-top: 30px;
+      padding-bottom: 20px;
+  }
+  .demo5 form .mail
+  {
+    width: 350px;
+    height: 40px;
+  }
+  .demo5 form .btn
+  {
+    width: 150px;
+    height:45px ;
+  }
+  .demo5 .icon
+  {
+      height: 40px;
+      width: 40px;
+      background-color: darkcyan;
+      border-radius: 50%;
+      display: inline-block;
+      margin-bottom: 50px;
+      margin-left: 15px;
+  }
+  .demo5 h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
